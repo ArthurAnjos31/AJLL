@@ -2,7 +2,99 @@ body{background-color: white;}
 
 .san{ width: 120px; }
 .fla{width: 70px;}
-.pal{width: 100px;}
+.pal{width: 100px;    padding-top: 20px;}
 .cor{width: 80px;}
 .ab{width: 50px;}
 .b{  width: 700px; }
+.vasco{width: 50px;}
+.sanca{width: 50px;}
+.flaca{width: 50px;}
+.corb{width: 50px;}
+.placa{width: 50px;}
+
+
+
+table{width: 100px;
+
+
+}
+
+.tbp{  letter-spacing: 3px;       
+display: ;
+
+
+
+}
+
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: inline-flexbox;  
+      height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+    
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+    
+}
+
+.slider li:nth-child(2) label {
+    left: 30px;
+bottom: 22px;
+
+}
+
+.slider li:nth-child(3) label {
+    left: 50px;
+}
+.slider li:nth-child(4) label {
+    left: 70px;
+    bottom: 151px
+}.slider li:nth-child(5) label {
+    left: 90px;
+    
+}
+
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
