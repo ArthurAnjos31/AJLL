@@ -7,12 +7,12 @@ body{background-color: white;}
 .ab{width: 50px;}
 .b{  width: 700px; }
 .vasco{width: 50px;}
-.sanca{width: 50px;}
-.flaca{width: 50px;}
+.sancaney{width: 467px;}
+.flaca{width: 500px;}
 .corb{width: 50px;}
-.placa{width: 50px;}
-
-
+.palca{width: 50px;}
+.melo{ width: 400px;}
+.vacoscA{width: 335px   ;}
 
 table{width: 100px;
 
@@ -78,10 +78,11 @@ bottom: 22px;
 
 .slider li:nth-child(3) label {
     left: 50px;
+    bottom: 3px;
 }
 .slider li:nth-child(4) label {
     left: 70px;
-    bottom: 151px
+    bottom: -55px
 }.slider li:nth-child(5) label {
     left: 90px;
     
@@ -98,3 +99,5 @@ bottom: 22px;
     visibility: visible;
     z-index: 10;
 }
+
+
